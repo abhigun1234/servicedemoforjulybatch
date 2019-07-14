@@ -1,0 +1,28 @@
+<!-- <p *ngIf="showcontent">
+  structural works!
+</p>
+<ul *ngFor="let fruit of fruits">
+ <li> {{fruit}}</li>
+
+</ul>
+<ul *ngFor="let fruit of fruits">
+ <li> {{fruit}}</li>
+
+</ul> -->
+
+<div [ngSwitch]="color">
+
+  <p *ngSwitchCase="'red'">
+
+    color is red
+  </p>
+  <p *ngSwitchCase="'blue'">
+    color is blue
+  </p>
+  <p *ngSwitchCase="'green'">
+    color is green
+  </p>
+  <p *ngSwitchCase="'yellow'">
+    color is yellow
+  </p>
+</div>
