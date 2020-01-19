@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StructuralComponent implements OnInit {
  showcontent=true
- color='red'
+ color='blue'
  fruits=["banana","orange","pinaple","watermilean"]
   constructor() { }
 

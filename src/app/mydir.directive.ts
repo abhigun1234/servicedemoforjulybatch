@@ -6,7 +6,7 @@ import { Directive ,ElementRef} from '@angular/core';
 export class MydirDirective {
 
   constructor(e1:ElementRef) { 
-    e1.nativeElement.style.background='blue'
+    e1.nativeElement.style.background='green'
   }
 
 }

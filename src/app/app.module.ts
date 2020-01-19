@@ -22,7 +22,8 @@ import { DemoattributeComponent } from './demoattribute/demoattribute.component'
 import { PropertyComponent } from './property/property.component';
 import { MydireDirective } from './mydire.directive';
 import { ProductComponent } from './product/product.component';
-import { ProductdetailsComponent } from './productdetails/productdetails.component'
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { MyComponent } from './my/my.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +46,8 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
     PropertyComponent,
     MydireDirective,
     ProductComponent,
-    ProductdetailsComponent
+    ProductdetailsComponent,
+    MyComponent
   ],
   imports: [
     BrowserModule,

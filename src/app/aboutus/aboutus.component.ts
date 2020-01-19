@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutusComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+     alert('constroctor')
+   }
 
   ngOnInit() {
+    alert('ngOnInit')
+
   }
 
 }
